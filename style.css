@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('https://cdn.jsdelivr.net/gh/sahibjotsaggu/SF-Pro-Display-Font-master/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+}
+body {
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.widget {
+    background-color: #fff;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+}
+.date-widget {
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.date-widget .month {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.date-widget .day-of-week {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.date-widget .day {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 5px 0;
+}
